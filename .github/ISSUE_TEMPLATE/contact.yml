@@ -1,0 +1,21 @@
+name: Contact Trama client maintainers
+description: Ask about the Commons client, attribution, or unexpected traffic.
+title: "[Contact] "
+body:
+  - type: markdown
+    attributes:
+      value: "This request and replies are public. Do not include passwords, keys, or private files. Español también es bienvenido."
+  - type: textarea
+    id: request
+    attributes:
+      label: Request / Consulta
+      description: Describe how we can help with the Trama client.
+    validations:
+      required: true
+  - type: input
+    id: related_url
+    attributes:
+      label: Related public URL / URL pública relacionada
+      description: Optional Commons file or other public reference.
+    validations:
+      required: false
